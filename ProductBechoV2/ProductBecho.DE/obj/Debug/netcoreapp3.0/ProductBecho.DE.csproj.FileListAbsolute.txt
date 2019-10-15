@@ -6,3 +6,11 @@ C:\Users\Daffolap-301\Documents\MyProjects\ProductBechov2\ProductBechoV2\Product
 C:\Users\Daffolap-301\Documents\MyProjects\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.AssemblyInfo.cs
 C:\Users\Daffolap-301\Documents\MyProjects\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.dll
 C:\Users\Daffolap-301\Documents\MyProjects\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.pdb
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\bin\Debug\netcoreapp3.0\ProductBecho.DE.deps.json
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\bin\Debug\netcoreapp3.0\ProductBecho.DE.dll
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\bin\Debug\netcoreapp3.0\ProductBecho.DE.pdb
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.csprojAssemblyReference.cache
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.AssemblyInfoInputs.cache
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.AssemblyInfo.cs
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.dll
+C:\Users\Daffolap-398\source\repos\ProductBechov2\ProductBechoV2\ProductBecho.DE\obj\Debug\netcoreapp3.0\ProductBecho.DE.pdb

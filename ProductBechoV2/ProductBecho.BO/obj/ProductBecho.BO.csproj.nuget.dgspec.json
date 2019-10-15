@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj": {}
+    "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj": {
+    "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj",
+        "projectUniqueName": "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj",
         "projectName": "ProductBecho.BO",
-        "projectPath": "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj",
-        "packagesPath": "C:\\Users\\Daffolap-301\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\obj\\",
+        "projectPath": "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\ProductBecho.BO.csproj",
+        "packagesPath": "C:\\Users\\Daffolap-398\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.BO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Daffolap-301\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daffolap-398\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
