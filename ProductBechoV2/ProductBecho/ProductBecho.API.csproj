@@ -13,7 +13,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,15 +33,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\models\UserDetail.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ProductBecho.BAL\ProductBecho.BAL.csproj" />
     <ProjectReference Include="..\ProductBecho.BO\ProductBecho.BO.csproj" />
-    <ProjectReference Include="..\ProductBecho.DAL\ProductBecho.DAL.csproj" />
-    <ProjectReference Include="..\ProductBecho.DE\ProductBecho.DE.csproj" />
     <ProjectReference Include="..\ProductBecho.VM\ProductBecho.VM.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <TypeScriptCompile Include="ClientApp\src\app\models\UserDetail.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

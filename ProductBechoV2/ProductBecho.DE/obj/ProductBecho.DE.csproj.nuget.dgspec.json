@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj": {}
+    "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBecho\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj": {
+    "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBecho\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj",
+        "projectUniqueName": "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBecho\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj",
         "projectName": "ProductBecho.DE",
-        "projectPath": "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj",
-        "packagesPath": "C:\\Users\\Daffolap-398\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daffolap-398\\Source\\Repos\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\obj\\",
+        "projectPath": "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBecho\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\ProductBecho.DE.csproj",
+        "packagesPath": "C:\\Users\\Daffolap-301\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daffolap-301\\Documents\\MyProjects\\ProductBecho\\ProductBechov2\\ProductBechoV2\\ProductBecho.DE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Daffolap-398\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daffolap-301\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

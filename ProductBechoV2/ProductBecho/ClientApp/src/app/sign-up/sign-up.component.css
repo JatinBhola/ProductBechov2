@@ -1,0 +1,4 @@
+.signup-form input, .signup-form textarea, .signup-form button{
+  display:block;
+  margin-top:10px;
+}

@@ -1,1 +1,11 @@
-<p>sign-up works!</p>
+<div class="signup-form">
+  <input [(ngModel)]="userDetail.firstName" type="text" placeholder="First Name"/>
+  <input [(ngModel)]="userDetail.lastName" type="text" placeholder="Last Name" />
+  <input [(ngModel)]="userDetail.email"  type="email" placeholder="Email"/>
+  <input [(ngModel)]="userDetail.phone"  type="text" pattern="^[0-9]{10}$" placeholder="Phone Number"/>
+  <input [(ngModel)]="userDetail.dob" type="date" placeholder="Date of birth"/>
+  <textarea [(ngModel)]="userDetail.address" placeholder="Address"></textarea>
+  <input [(ngModel)]="userDetail.password" placeholder="Password" type="password" />
+  <button (click)="signUpUser()">Sign Up</button>
+</div>
+<p *ngIf="errorMessage">{{errorMessage}}</p>
