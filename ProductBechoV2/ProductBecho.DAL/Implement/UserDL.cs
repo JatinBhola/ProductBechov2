@@ -14,11 +14,10 @@ namespace ProductBecho.DAL.Implement
     {
         private IServiceProvider serviceProvider;
         private ProductBechoContext context;
-        public UserDL(IServiceProvider serviceProvider)
+        public UserDL(String connectionString)
         {
-            IConfiguration config = serviceProvider.GetRequiredService<IConfiguration>();
             var optionBuilder = new DbContextOptionsBuilder<ProductBechoContext>();
-            optionBuilder.UseSqlServer(config.GetConnectionString("SqlServer"));
+            optionBuilder.UseSqlServer(connectionString);
             this.context = new ProductBechoContext(optionBuilder.Options);
         }
         public Task CreateUser(UserBO userBO)
